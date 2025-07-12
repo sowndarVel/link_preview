@@ -1,14 +1,11 @@
 import express from 'express';
 import { createClient } from 'contentful';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 const app = express();
 
 const client = createClient({
-  space: ewtdlsoyixc1,
-  accessToken: VY8B0F4-N1bAWVse1pcGLvhYj0GBy6vjHsycRvvm03w,
+  space: 'ewtdlsoyixc1',
+  accessToken: 'VY8B0F4-N1bAWVse1pcGLvhYj0GBy6vjHsycRvvm03w',
 });
 
 app.get('/og/article/:id', async (req, res) => {
