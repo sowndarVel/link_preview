@@ -7,8 +7,8 @@ dotenv.config();
 const app = express();
 
 const client = createClient({
-  space: process.env.CONTENTFUL_SPACE,
-  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+  space: ewtdlsoyixc1,
+  accessToken: VY8B0F4-N1bAWVse1pcGLvhYj0GBy6vjHsycRvvm03w,
 });
 
 app.get('/og/article/:id', async (req, res) => {
